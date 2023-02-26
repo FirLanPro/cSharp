@@ -15,7 +15,8 @@
 
     Ex_005 Сложение 2-х рандомных целых чисел |[Блок-схема](Lecture/L_01/Ex_005/diagram.drawio.png) | [КОД](Lecture/L_01/Ex_005/Program.cs)
 
-    Ex_006
+    Ex_006 Ветвление, если, то, иначе|[Блок-схема](Lecture/L_01/Ex_006/diagram.drawio.png) | [КОД](Lecture/L_01/Ex_006/Program.cs)
+
 
     Ex_007
 
