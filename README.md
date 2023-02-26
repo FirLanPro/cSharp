@@ -25,6 +25,7 @@
 - L_02:
 1. Examp_01 | Max число в массиве |[КОД](Lecture/L_02/Examp_01/Program.cs)
 2. Examp_02 | найти элемент массива и вывести индекс | [КОД](Lecture/L_02/Examp_02/Program.cs)
+3. Examp_03 | Нахождение индекса заданного числа в рандомном массиве | [КОД](Lecture/L_02/Examp_03/Program.cs)
 - L_03
 ## Seminar:
 - S_001:
