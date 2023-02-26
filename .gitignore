@@ -468,3 +468,6 @@ Footer navigation
     Blog
     About
 
+# ранее закомиченные папки, далее удалённые из индексирования
+Lecture/L_01/Ex_001/obj/
+Lecture/L_01/Ex_002/obj/
