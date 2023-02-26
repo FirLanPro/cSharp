@@ -1,18 +1,3 @@
-## Homework:
-
-- ### **DZ_001:**
-1. zadacha_001 |
-2. zadacha_002 |
-3. zadacha_003 |
-4. zadacha_004 |
-
-- ### **DZ_002:**
-1. ZDCH_001 |
-- ### **iz_spiska_zadach:**
-1. nomer_001 |
-2. nomer_002 |
-3. nomer_003 |
-
 ## Lecture:
 - ### **L_01:**
 
@@ -51,3 +36,17 @@
 
 2. z002 | Вывести числа от N до -N | [КОД](Seminar/S_001/z002/Program.cs)
 
+## Homework:
+
+- ### **DZ_001:**
+1. zadacha_001 |
+2. zadacha_002 |
+3. zadacha_003 |
+4. zadacha_004 |
+
+- ### **DZ_002:**
+1. ZDCH_001 |
+- ### **IZ_spiska_zadach:**
+1. nomer_001 |
+2. nomer_002 |
+3. nomer_003 |
