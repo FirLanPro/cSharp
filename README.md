@@ -18,10 +18,10 @@
     Ex_006 Ветвление, если, то, иначе|[Блок-схема](Lecture/L_01/Ex_006/diagram.drawio.png) | [КОД](Lecture/L_01/Ex_006/Program.cs)
 
 
-    Ex_007 Найти max среди чисел [КОД](Lecture/L_01/Ex_007/Program.cs)
+    Ex_007 Найти max среди чисел |[КОД](Lecture/L_01/Ex_007/Program.cs)
 
 
-    Ex_008
+    Ex_008 расположение треугольника на оси коордират и его заполнение | [КОД](Lecture/L_01/Ex_008/Program.cs)
 - L_02
 - L_03
 ## Seminar:
