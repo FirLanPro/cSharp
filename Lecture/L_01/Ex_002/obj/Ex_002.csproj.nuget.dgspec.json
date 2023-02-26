@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/mulder/Git_pracktica/Sharp/cSharp/Lecture/L_01/Ex_002/Ex_002.csproj": {}
+  },
+  "projects": {
+    "/home/mulder/Git_pracktica/Sharp/cSharp/Lecture/L_01/Ex_002/Ex_002.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mulder/Git_pracktica/Sharp/cSharp/Lecture/L_01/Ex_002/Ex_002.csproj",
+        "projectName": "Ex_002",
+        "projectPath": "/home/mulder/Git_pracktica/Sharp/cSharp/Lecture/L_01/Ex_002/Ex_002.csproj",
+        "packagesPath": "/home/mulder/.nuget/packages/",
+        "outputPath": "/home/mulder/Git_pracktica/Sharp/cSharp/Lecture/L_01/Ex_002/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mulder/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
