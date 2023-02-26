@@ -13,7 +13,7 @@
     Ex_004 Деление 2-х целых чисел|[Блок-схема](Lecture/L_01/Ex_004/diagram.drawio.png) | [КОД](Lecture/L_01/Ex_004/Program.cs)
 
 
-    Ex_005
+    Ex_005 Сложение 2-х рандомных целых чисел |[Блок-схема](Lecture/L_01/Ex_005/diagram.drawio.png) | [КОД](Lecture/L_01/Ex_005/Program.cs)
 
     Ex_006
 
