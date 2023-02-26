@@ -39,7 +39,7 @@
 # Homework:
 
 - ## **DZ_001:**
-1. zadacha_001 |[Блок-схема](Homework/DZ_001/zadacha_001/diagram.drawio.png) [КОД](Homework/DZ_001/zadacha_001/Program.cs)
+1. zadacha_001 вход принимает два числа и выдаёт, какое число большее, а какое меньшеев |[Блок-схема](Homework/DZ_001/zadacha_001/diagram.drawio.png) [КОД](Homework/DZ_001/zadacha_001/Program.cs)
 2. zadacha_002 |
 3. zadacha_003 |
 4. zadacha_004 |
