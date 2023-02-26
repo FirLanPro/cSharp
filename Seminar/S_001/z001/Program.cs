@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int N = 5;
+int result = N*N;
+Console.WriteLine(result);
