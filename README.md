@@ -2,6 +2,7 @@
 
 ## Lecture:
 - L_01: 
+
     Ex_001 Вывод текста | [Блок-схема](Lecture/L_01/Ex_001/diagram.drawio.png) | [КОД](Lecture/L_01/Ex_001/Program.cs)
 
     Ex_002 Ввод имени, вывод текста и имени | [Блок-схема](Lecture/L_01/Ex_002/diagram.drawio.png) | [КОД](Lecture/L_01/Ex_002/Program.cs)
