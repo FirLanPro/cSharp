@@ -39,7 +39,7 @@
 # Homework:
 
 - ## **DZ_001:**
-1. zadacha_001 |
+1. zadacha_001 |[Блок-схема](Homework/DZ_001/zadacha_001/diagram.drawio.png)
 2. zadacha_002 |
 3. zadacha_003 |
 4. zadacha_004 |
