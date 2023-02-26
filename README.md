@@ -25,3 +25,8 @@
 - L_02
 - L_03
 ## Seminar:
+- S_001:
+
+z001 Вывести квадрат числа | [Блок-схема](Seminar/S_001/z001/diagram.drawio.png) [КОД](Seminar/S_001/z001/Program.cs)
+
+z002 
