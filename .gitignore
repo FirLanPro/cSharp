@@ -470,11 +470,11 @@ Footer navigation
 
 # ранее закомиченные папки, далее удалённые из индексирования
 
-Lecture/L_01/Ex_001/obj/Ex_001.csproj.nuget.dgspec.json
-Lecture/L_01/Ex_001/obj/Ex_001.csproj.nuget.g.props
-Lecture/L_01/Ex_001/obj/Ex_001.csproj.nuget.g.targets
-Lecture/L_01/Ex_001/obj/project.assets.json
-Lecture/L_01/Ex_001/obj/project.nuget.cache
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+*.assets.json
+*.nuget.cache
 
 Lecture/L_01/Ex_002/obj/Ex_002.csproj.nuget.dgspec.json
 Lecture/L_01/Ex_002/obj/Ex_002.csproj.nuget.g.props
