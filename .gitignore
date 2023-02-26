@@ -475,6 +475,7 @@ Footer navigation
 *.csproj.nuget.g.targets
 *.assets.json
 *.nuget.cache
+*.csproj
 
 Lecture/L_01/Ex_002/obj/Ex_002.csproj.nuget.dgspec.json
 Lecture/L_01/Ex_002/obj/Ex_002.csproj.nuget.g.props
