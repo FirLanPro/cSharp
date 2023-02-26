@@ -29,4 +29,5 @@
 
 z001 Вывести квадрат числа | [Блок-схема](Seminar/S_001/z001/diagram.drawio.png) [КОД](Seminar/S_001/z001/Program.cs)
 
-z002 
+z002 Вывести числа от N до -N | [КОД](Seminar/S_001/z002/Program.cs)
+
