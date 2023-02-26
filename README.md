@@ -24,6 +24,7 @@
    8.  Ex_008 расположение треугольника на оси коордират и его заполнение | [КОД](Lecture/L_01/Ex_008/Program.cs)
 - L_02:
 1. Examp_01 | Max число в массиве |[КОД](Lecture/L_02/Examp_01/Program.cs)
+2. Examp_02 | найти элемент массива и вывести индекс | [КОД](Lecture/L_02/Examp_02/Program.cs)
 - L_03
 ## Seminar:
 - S_001:
