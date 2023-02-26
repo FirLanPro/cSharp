@@ -40,8 +40,8 @@
 
 - ## **DZ_001:**
 1. zadacha_001 | на вход принимает два числа и выдаёт, какое число большее, а какое меньшее|[Блок-схема](Homework/DZ_001/zadacha_001/diagram.drawio.png) [КОД](Homework/DZ_001/zadacha_001/Program.cs)
-2. zadacha_002 |
-3. zadacha_003 |
+2. zadacha_002 | Блок-схема](Homework/DZ_001/zadacha_002/diagram.drawio.png) [КОД](Homework/DZ_001/zadacha_002/Program.cs)
+3. zadacha_003 |Блок-схема](Homework/DZ_001/zadacha_003/diagram.drawio.png) [КОД](Homework/DZ_001/zadacha_003/Program.cs)
 4. zadacha_004 |
 
 - ## **DZ_002:**
