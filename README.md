@@ -1,5 +1,5 @@
-## Lecture:
-- ### **L_01:**
+# Lecture:
+- ## **L_01:**
 
 1. Ex_001 | Вывод текста | [Блок-схема](Lecture/L_01/Ex_001/diagram.drawio.png) | [КОД](Lecture/L_01/Ex_001/Program.cs)
 
@@ -21,32 +21,32 @@
 
 8.  Ex_008 | расположение треугольника на оси коордират и его заполнение | [КОД](Lecture/L_01/Ex_008/Program.cs)
 
-- ### **L_02:**
+- ## **L_02:**
 1. Examp_01 | Max число в массиве |[КОД](Lecture/L_02/Examp_01/Program.cs)
 2. Examp_02 | найти элемент массива и вывести индекс | [КОД](Lecture/L_02/Examp_02/Program.cs)
 3. Examp_03 | Нахождение индекса заданного числа в рандомном массиве | [КОД](Lecture/L_02/Examp_03/Program.cs)
 
-- ### **L_03:**
+- ## **L_03:**
 
-## Seminar:
+# Seminar:
 
-- ### **S_001:**
+- ## **S_001:**
 
 1. z001 | Вывести квадрат числа | [Блок-схема](Seminar/S_001/z001/diagram.drawio.png) [КОД](Seminar/S_001/z001/Program.cs)
 
 2. z002 | Вывести числа от N до -N | [КОД](Seminar/S_001/z002/Program.cs)
 
-## Homework:
+# Homework:
 
-- ### **DZ_001:**
+- ## **DZ_001:**
 1. zadacha_001 |
 2. zadacha_002 |
 3. zadacha_003 |
 4. zadacha_004 |
 
-- ### **DZ_002:**
+- ## **DZ_002:**
 1. ZDCH_001 |
-- ### **IZ_spiska_zadach:**
+- ## **IZ_spiska_zadach:**
 1. nomer_001 |
 2. nomer_002 |
 3. nomer_003 |
