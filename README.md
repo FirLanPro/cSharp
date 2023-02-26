@@ -18,7 +18,8 @@
     Ex_006 Ветвление, если, то, иначе|[Блок-схема](Lecture/L_01/Ex_006/diagram.drawio.png) | [КОД](Lecture/L_01/Ex_006/Program.cs)
 
 
-    Ex_007
+    Ex_007 Найти max среди чисел [КОД](Lecture/L_01/Ex_007/Program.cs)
+
 
     Ex_008
 - L_02
