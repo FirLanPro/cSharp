@@ -7,7 +7,8 @@
 
     Ex_002 Ввод имени, вывод текста и имени | [Блок-схема](Lecture/L_01/Ex_002/diagram.drawio.png) | [КОД](Lecture/L_01/Ex_002/Program.cs)
 
-    Ex_003
+    Ex_003 Сумма двух известных чисел |[Блок-схема](Lecture/L_01/Ex_002/diagram.drawio.png) | [КОД](Lecture/L_01/Ex_002/Program.cs)
+
 
     Ex_004
 
