@@ -45,7 +45,7 @@
 4. zadacha_004 | на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N | [Блок-схема](Homework/DZ_001/zadacha_004/diagram.drawio.png) [КОД](Homework/DZ_001/zadacha_004/Program.cs)
 
 - ## **DZ_002:**
-1. ZDCH_001 |
+1. ZDCH_001 |[Блок-схема](Homework/DZ_002/ZDCH_001/diagram.drawio.png)  [КОД](Homework/DZ_002/ZDCH_001/Program.cs)
 - ## **IZ_spiska_zadach:**
 1. nomer_001 |
 2. nomer_002 |
