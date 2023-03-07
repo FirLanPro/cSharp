@@ -48,6 +48,6 @@
 1. ZDCH_001 | [КОД](Homework/DZ_002/ZDCH_001/Program.cs)
 2. ZDCH_002 | [КОД](Homework/DZ_002/ZDCH_002/Program.cs)
 - ## **IZ_spiska_zadach:**
-1. nomer_001 |
+1. nomer_001 | [КОД](Homework/IZ_spiska_zadach/nomer_001/Program.cs)
 2. nomer_002 |
 3. nomer_003 |
