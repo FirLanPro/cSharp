@@ -54,9 +54,9 @@
 4. zadacha_004 | на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N | [Блок-схема](Homework/DZ_001/zadacha_004/diagram.drawio.png) [КОД](Homework/DZ_001/zadacha_004/Program.cs)
 
 - ## **DZ_002:**
-1. ZDCH_001 | [КОД](Homework/DZ_002/ZDCH_001/Program.cs)
-2. ZDCH_002 | [КОД](Homework/DZ_002/ZDCH_002/Program.cs)
-3. ZDCH_003 | [КОД](Homework/DZ_002/ZDCH_003/Program.cs)
+1. ZDCH_001 | на вход трёхзначное число и на выходе показывает вторую цифру этого числа | [КОД](Homework/DZ_002/ZDCH_001/Program.cs)
+2. ZDCH_002 | выводит третью цифру заданного числа или сообщает, что третьей цифры нет. (3-я цифра с начала числа) | [КОД](Homework/DZ_002/ZDCH_002/Program.cs)
+3. ZDCH_003 | принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным | [КОД](Homework/DZ_002/ZDCH_003/Program.cs)
 - ## **IZ_spiska_zadach:**
 1. nomer_001 | [КОД](Homework/IZ_spiska_zadach/nomer_001/Program.cs)
 2. nomer_002 |
