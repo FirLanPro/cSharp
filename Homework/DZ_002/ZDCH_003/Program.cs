@@ -1,28 +1,47 @@
-﻿// Задача 15: Напишите программу, которая принимает на вход Слово, обозначающую день недели, и проверяет, является ли этот день выходным.
+﻿// Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 
-Console.Write ("Введите день недели :  ");
-string WEEK = Console.ReadLine();
+Console.Write ("Введите день недели цифрой начиная с 1 (понедельник):  ");
+int WEEK = Convert.ToInt32(Console.ReadLine());
 
-string NN (string WEEK)
+bool NN (int WEEK)
 {
-if (WEEK.ToLower() == "суббота" || WEEK.ToLower() == "воскресение")
+if (WEEK>5)
     {
-    return "выходной день";
+    return true;
     }
-return "таких выходных дней нет";
+return false;
 }
 
-string NM (string WEEK)
+bool NM (int WEEK)
 {
-    if (WEEK.ToLower() == "понедельник"|| WEEK.ToLower() =="вторник"|| WEEK.ToLower() =="среда"|| WEEK.ToLower() =="четверг"|| WEEK.ToLower() =="пятница")
+    if (WEEK<6)
     {
-    return "будний день";
+    return true;
+    
     }
-return "таких будних дней нет";
+return false;
 }
-NN (WEEK);
-string res = NN (WEEK);
-Console.WriteLine(res);
-NM ( WEEK);
-string rez = NM (WEEK);
-Console.WriteLine(rez);
+
+bool MM (int WEEK)
+{
+if (WEEK <8 && WEEK >0)
+{
+    return true;
+   
+}
+Console.WriteLine ("не день недели");
+return false;
+}
+
+if (MM ( WEEK))
+{
+        if (NM ( WEEK))
+        {
+            Console.WriteLine ("будний ");
+        }
+        else 
+        {  
+        Console.WriteLine ("выходной ");
+        } 
+}
+
