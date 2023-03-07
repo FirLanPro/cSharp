@@ -53,6 +53,7 @@
 - ## **S_003:**
 
 1. ZD_01 | вычисление значения функции y=sin(a) | [КОД](Seminar/S_003/ZD_01/Program.cs)
+2. ZD_02 | Кубы чисел от 1 до N | [КОД](Seminar/S_003/ZD_02/Program.cs)
 
 # Homework:
 
