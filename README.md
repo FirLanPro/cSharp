@@ -33,6 +33,7 @@
 4. Exam_04 | Виды методов: 3. не возвращ и не приним | [КОД](Lecture/L_03/Exam_04/Program.cs)
 5. Exam_05 | Виды методов: 4. не возвращ и не приним | [КОД](Lecture/L_03/Exam_05/Program.cs)
 6. Exam_06 | Виды методов: 4. не возвращ и не приним | [КОД](Lecture/L_03/Exam_06/Program.cs)
+7. Exam_07 | Виды методов: 4. не возвращ и не приним | [КОД](Lecture/L_03/Exam_07/Program.cs)
 
 # Seminar:
 
