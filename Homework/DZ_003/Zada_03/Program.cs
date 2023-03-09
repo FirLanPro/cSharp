@@ -4,6 +4,7 @@ int vvod (string text)
     Console.WriteLine(text);
     return Convert.ToInt32(Console.ReadLine());
 }
+
 string kub (int n)
 {
     for(int i=1;i<=n;i++)
@@ -11,8 +12,9 @@ string kub (int n)
         Console.WriteLine($"число: {i}  | число в кубе: {i*i*i}");
         Console.WriteLine ($"-------------------------------");
     }
-    Console.WriteLine();
-    return "значения";
+Console.WriteLine();
+return "значения";
 }
+
 int n = vvod("Введите число до которого вычисляется куб: ");
 kub (n);
