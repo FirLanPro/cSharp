@@ -5,7 +5,7 @@
 // основание -A с отрицательной четной степенью = 1/A  темже значением степени.
 // основание -A с отрицательной нечетной степенью = 1/-A  темже значением степени.
 
-int vvod (string text)
+int input (string text)
 {
     Console.Write(text);
     return Convert.ToInt32(Console.ReadLine());
@@ -46,8 +46,8 @@ bool zero(int A,int B)
         return false;
 }
 
-int A = vvod("Введите число A: ");
-int B = vvod("Введите число B: ");
+int A = input("Введите число A: ");
+int B = input("Введите число B: ");
 zero(A,B);
 string res = negative (B);
 Console.Write ($"{res}");
