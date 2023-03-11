@@ -7,7 +7,7 @@ void ArrayRandom (int [] NumberArr)
     for (int i=0; i<size; i++)
     {
         NumberArr [i]= new Random().Next(1,50);
-        Console.Write(cccc[i] +", ");
+        Console.Write(NumberArr[i] +", ");
     }
 }
 int [] array =new int [8];
