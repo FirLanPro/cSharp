@@ -5,22 +5,22 @@ int Input (string text)
     return Convert.ToInt32(Console.ReadLine());
 }
 
-string ArrayRandom (int [] array)
+string ArrayRandom (double [] array)
 {
     int size =array.Length;
     string resultArr = String.Empty;
     for (int i=0; i<size; i++)
     {
-        array [i]= new Random().Next(-100,999);
+        array [i]= new Random().NextDouble() + new Random().Next(-100,100);
         resultArr = resultArr + array[i] + " ";
     }
     return resultArr;
 }
 
-int MaxMin (int [] arrayString)
+double MaxMin (double [] arrayString)
 {
-    int max=0;
-    int min = arrayString[0];
+    double max=0;
+    double min = arrayString[0];
     int size=arrayString.Length;
     for (int i=0; i<size; i++)
     {
@@ -37,7 +37,7 @@ int MaxMin (int [] arrayString)
 }
 
 int length = Input("введите количество элементов в массиве: ");
-int [] array =new int [length];
+double [] array =new double [length];
 Console.Write($"массив: [ " + ArrayRandom(array) + "]");
 Console.WriteLine();
 Console.WriteLine("разница между максимальным и минамальным элементом массива =  " + MaxMin (array) );
