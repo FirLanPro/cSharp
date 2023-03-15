@@ -40,5 +40,4 @@ int length = Input("введите количество элементов в м
 int [] array =new int [length];
 Console.Write($"массив: [ " + ArrayRandom(array) + "]");
 Console.WriteLine();
-
 Console.WriteLine("разница между максимальным и минамальным элементом массива =  " + MaxMin (array) );
