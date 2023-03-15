@@ -17,20 +17,20 @@ string ArrayRandom (int [] array)
     return resultArr;
 }
 
-int MaxMin (int [] NumberArr)
+int MaxMin (int [] arrayString)
 {
     int max=0;
-    int min = NumberArr[0];
-    int size=NumberArr.Length;
+    int min = arrayString[0];
+    int size=arrayString.Length;
     for (int i=0; i<size; i++)
     {
-        if (NumberArr[i]>max)
+        if (arrayString[i]>max)
         {
-            max=NumberArr[i];
+            max=arrayString[i];
         }
-        if (NumberArr[i]<min)
+        if (arrayString[i]<min)
         {
-           min=NumberArr[i];
+           min=arrayString[i];
         }
     }
     return max-min;
@@ -40,5 +40,5 @@ int length = Input("введите количество элементов в м
 int [] array =new int [length];
 Console.Write($"массив: [ " + ArrayRandom(array) + "]");
 Console.WriteLine();
-int result = MaxMin (array);
-Console.WriteLine("разница между максимальным и минамальным элементом массива =  " + result );
+
+Console.WriteLine("разница между максимальным и минамальным элементом массива =  " + MaxMin (array) );
