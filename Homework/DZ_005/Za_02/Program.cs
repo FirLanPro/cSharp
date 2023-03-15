@@ -11,9 +11,6 @@ void ArrayRandom (int [] NumberArr)
     }
 }
 
-int [] array =new int [8];
-ArrayRandom (array);
-
 int EvenNumb (int [] NumberArr)
 {
     int n=0;
@@ -23,9 +20,12 @@ int EvenNumb (int [] NumberArr)
         if ( i%2!=0)
         {
             n=n+NumberArr[i];
-         }
+        }
     }
     return n;
 }
+
+int [] array =new int [8];
+ArrayRandom (array);
 EvenNumb (array);
 Console.WriteLine($"сумма элементов на нечётных позициях = "+ EvenNumb (array));
