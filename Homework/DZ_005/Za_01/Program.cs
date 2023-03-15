@@ -12,7 +12,7 @@ string ArrayRandom (int [] array)
     string resultArr = String.Empty;
     for (int i=0; i<size; i++)
     {
-        array [i]= new Random().Next(100,999);
+        array [i]= new Random().Next(100,1000);
         resultArr = resultArr + array[i] + " ";
     }
     return resultArr;
