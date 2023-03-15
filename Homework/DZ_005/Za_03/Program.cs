@@ -11,7 +11,7 @@ string ArrayRandom (double [] array)
     string resultArr = String.Empty;
     for (int i=0; i<size; i++)
     {
-        array [i]= new Random().NextDouble() + new Random().Next(-100,100);
+        array [i]= new Random().NextDouble() + new Random().Next(-100,999);
         resultArr = resultArr + array[i] + " ";
     }
     return resultArr;
