@@ -10,19 +10,21 @@ void ArrayRandom (int [] NumberArr)
         Console.Write(NumberArr[i] +" ");
     }
 }
-int [] array =new int [8];
-ArrayRandom (array);
 
 int EvenNumb (int [] NumberArr)
-{int n=0;
- int size=NumberArr.Length;
-for (int i=0; i<size; i++){
-   if ( NumberArr[i]%2==0)
-   {
-    n=n+1;
-   }
+{
+    int j=0;
+    int size=NumberArr.Length;
+    for (int i=0; i<size; i++ )
+    {
+        if ( NumberArr[i]%2==0 )
+        {
+            j=j+1;
+        }
+    }
+    return j;
 }
-return n;
-}
+int [] array =new int [8];
+ArrayRandom (array);
 EvenNumb (array);
-Console.WriteLine($"четных чисел:"+ EvenNumb (array));
+Console.WriteLine($"четных чисел в массиве :"+ EvenNumb (array));
