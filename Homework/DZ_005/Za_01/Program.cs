@@ -13,18 +13,18 @@ string ArrayRandom (int [] array)
     for (int i=0; i<size; i++)
     {
         array [i]= new Random().Next(100,999);
-        resultArr = resultArr +array[i] + " ";
+        resultArr = resultArr + array[i] + " ";
     }
     return resultArr;
 }
 
-int EvenNumb (int [] array)
+int EvenNumb (int [] arrayString)
 {
     int j=0;
-    int size=array.Length;
+    int size=arrayString.Length;
     for (int i=0; i<size; i++ )
     {
-        if ( array[i]%2==0 )
+        if ( arrayString[i]%2==0 )
         {
             j=j+1;
         }
@@ -36,4 +36,4 @@ int length = Input ("введите количество элементов ма
 int [] array = new int [length];
 Console.Write($"массив: [ " + ArrayRandom(array) + "]");
 Console.WriteLine();
-Console.WriteLine($"количество четных чисел в массиве : "+ EvenNumb (array));
+Console.WriteLine($"количество четных чисел в массиве : " + EvenNumb (array));
