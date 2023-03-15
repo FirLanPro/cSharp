@@ -1,30 +1,39 @@
 ﻿// Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
 
-
-void ArrayRandom (int [] NumberArr)
+int Input (string text)
 {
-    int size=NumberArr.Length;
-    for (int i=0; i<size; i++)
-    {
-        NumberArr [i]= new Random().Next(100,999);
-        Console.Write(NumberArr[i] +" ");
-    }
+    Console.Write(text);
+    return Convert.ToInt32(Console.ReadLine());
 }
 
-int EvenNumb (int [] NumberArr)
+string ArrayRandom (int [] array)
+{
+    int size =array.Length;
+    string resultArr = String.Empty;
+    for (int i=0; i<size; i++)
+    {
+        array [i]= new Random().Next(100,999);
+        resultArr = resultArr +array[i] + " ";
+    }
+    return resultArr;
+}
+
+int EvenNumb (int [] array)
 {
     int j=0;
-    int size=NumberArr.Length;
+    int size=array.Length;
     for (int i=0; i<size; i++ )
     {
-        if ( NumberArr[i]%2==0 )
+        if ( array[i]%2==0 )
         {
             j=j+1;
         }
     }
     return j;
 }
-int [] array =new int [8];
-ArrayRandom (array);
-EvenNumb (array);
-Console.WriteLine($"четных чисел в массиве :"+ EvenNumb (array));
+
+int length = Input ("введите количество элементов массива: ");
+int [] array = new int [length];
+Console.Write($"массив: [ " + ArrayRandom(array) + "]");
+Console.WriteLine();
+Console.WriteLine($"количество четных чисел в массиве : "+ EvenNumb (array));
