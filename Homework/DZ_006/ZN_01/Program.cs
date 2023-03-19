@@ -11,14 +11,14 @@ void ArrayInput( int [] array)
     int size = array.Length;
     for (int i=0; i<size; i++)
     {
-        Console.Write($"введите число {i+1} :");
+        Console.Write($"введите {i+1}-ое число : ");
         int number = Convert.ToInt32(Console.ReadLine());
         array[i]=number;
     }
     Console.WriteLine();
 }
 
-int AboveZero (int [] array)
+int AboveZero (ref int [] array)
  {
     int moreZero=0;
     int size = array.Length;
@@ -33,7 +33,7 @@ int AboveZero (int [] array)
 }
 
 int length = Input("Количество чисел: ");
-Console.WriteLine();
 int [] array =new int[length];
+Console.WriteLine();
 ArrayInput(array);
-Console.WriteLine($"больше нуля : {AboveZero(array)} числа");    
+Console.WriteLine($"количество чисел больше нуля : {AboveZero(ref array)}");    
