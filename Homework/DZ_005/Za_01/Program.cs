@@ -6,7 +6,7 @@ int Input (string text)
     return Convert.ToInt32(Console.ReadLine());
 }
 
-string ArrayRandom (int [] array)
+string ArrayRandom (ref int [] array)
 {
     int size =array.Length;
     string resultArr = String.Empty;
@@ -34,6 +34,6 @@ int EvenNumb (int [] arrayString)
 
 int length = Input ("введите количество элементов массива: ");
 int [] array = new int [length];
-Console.Write($"массив: [ " + ArrayRandom(array) + "]");
+Console.Write($"массив: [ " + ArrayRandom(ref array) + "]");
 Console.WriteLine();
 Console.WriteLine($"количество четных чисел в массиве : " + EvenNumb (array));
