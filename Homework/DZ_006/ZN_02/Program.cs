@@ -32,13 +32,13 @@ void NotCrossing (double k1,double k2)
 
 void InputOutput()
 {
-double k1 =Input("значение коэффициета k1: ");
-double b1 =Input("значение b1: ");
-double k2 =Input("значение коэффициета k2: ");
-double b2 =Input("значение b2: ");
-Equation ( b1, k1, b2, k2);
-Console.WriteLine();
-NotCrossing(k1, k2);
+    double k1 =Input("значение коэффициета k1: ");
+    double b1 =Input("значение b1: ");
+    double k2 =Input("значение коэффициета k2: ");
+    double b2 =Input("значение b2: ");
+    Equation ( b1, k1, b2, k2);
+    Console.WriteLine();
+    NotCrossing(k1, k2);
 }
 
 InputOutput();
