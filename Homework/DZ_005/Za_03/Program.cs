@@ -5,7 +5,7 @@ int Input (string text)
     return Convert.ToInt32(Console.ReadLine());
 }
 
-string ArrayRandom (double [] array)
+string ArrayRandom (ref double [] array)
 {
     int size =array.Length;
     string resultArr = String.Empty;
@@ -38,6 +38,6 @@ double MaxMin (double [] arrayString)
 
 int length = Input("введите количество элементов в массиве: ");
 double [] array =new double [length];
-Console.Write($"массив: [ " + ArrayRandom(array) + "]");
+Console.Write($"массив: [ " + ArrayRandom(ref array) + "]");
 Console.WriteLine();
 Console.WriteLine("разница между максимальным и минамальным элементом массива =  " + MaxMin (array) );
