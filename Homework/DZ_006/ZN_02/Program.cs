@@ -18,24 +18,27 @@ double Equation (double b1,double k1,double b2 ,double k2)
         y=k1*x+b1;
         Console.WriteLine($"координаты точки пересечения: ({x} , {y})");
     }
-    
     return 0;
 }
-void InputResult (double k1,double k2)
+
+void NotCrossing (double k1,double k2)
 {
     
     if (k1==k2)
     {
         Console.WriteLine ("прямые не пересекаются");
     }
-   
 }
 
+void InputOutput()
+{
 double k1 =Input("значение коэффициета k1: ");
 double b1 =Input("значение b1: ");
 double k2 =Input("значение коэффициета k2: ");
 double b2 =Input("значение b2: ");
-
-Equation ( b1,  k1,  b2,k2);
+Equation ( b1, k1, b2, k2);
 Console.WriteLine();
-InputResult(k1, k2);
+NotCrossing(k1, k2);
+}
+
+InputOutput();
