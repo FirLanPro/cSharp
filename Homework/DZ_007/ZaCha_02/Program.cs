@@ -8,9 +8,9 @@ int Input (string text)
     return Convert.ToInt32(Console.ReadLine());
 }
 
-int [,] FillArray(int[,] array)
+int [,] ArrayRandom(int[,] array)
 {
-     for (int i = 0; i < array.GetLength(0); i++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
@@ -19,6 +19,7 @@ int [,] FillArray(int[,] array)
     }
     return array;
 }
+
 void PrintArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
@@ -32,7 +33,7 @@ void PrintArray(int[,] array)
     Console.WriteLine();
 }
 
-void  Metod3 (int [,] arr, int m, int n)
+bool Position (int [,] arr, int m, int n)
 {
     for (int i=0; i< arr.GetLength(0); i++)
     {
@@ -40,30 +41,40 @@ void  Metod3 (int [,] arr, int m, int n)
         {
             if (i==m && j==n )
             {
-                Console.WriteLine($" индексы = {i}, {j}, элемент = {arr[i,j]} ");
-                
+                return true;
             }
-            
         }
     }
-   
+   return false;
+}
+
+string InputElement ( int [,] arr, int m, int n, bool position )
+{
+    if (position==true) 
+    {
+        return " значение элемента = " + arr[m,n];
+    }
+    return "";
+}
+
+void NoElement(int m, int n)
+{
+    if (m > 9 || n > 9)
+    {
+        Console.WriteLine("такого элемента нет");
+    }
 }
 
 void InputOutput()
 {
-    int [,] array = new int [9,9];
+    int [,] array = new int [ 9, 9 ];
     int m =Input("строка: ");
     int n =Input("столбец: ");
-    FillArray(array);
+    ArrayRandom(array);
     PrintArray(array);
-    Metod3 (array,m,n);
-   
-    
+    bool pos =Position (array, m, n);
+    Console.WriteLine(InputElement(array, m, n, pos));
+    NoElement(m, n);
 }
 
 InputOutput();
-
-
-
-
-
