@@ -32,6 +32,7 @@
 - ## **L_06:**
 1. E_01 |---------|[КОД](Lecture/L_06/E_01/Program.cs)
 2. E_02 |---------|[КОД](Lecture/L_06/E_02/Program.cs)
+3. E_03 | Чтение кода | [КОД](Lecture/L_06/E_03/Program.cs)
 
 # Seminar:
 
