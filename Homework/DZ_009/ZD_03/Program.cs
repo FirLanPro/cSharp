@@ -7,7 +7,7 @@ int Input (string text)
     Console.Write(text);
     return Convert.ToInt32(Console.ReadLine());
 }
-int A(int m, int n) 
+int A(int m, int n) // отрицательные числа?
 {
     if (m==0) return n+1;
     else if(m>0 && n==0) return A(m-1,1); 
