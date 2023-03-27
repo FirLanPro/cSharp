@@ -58,11 +58,18 @@ void InputOutput()
     int m=Input("количество строк: ");
     int n=Input("количество столбцов: ");
     int [,] array = new int [m,n];
-    Console.WriteLine();
-    ArrayRandom(array);
-    PrintArray(array);
-    Descending(array);
-    PrintArray(array);
+    if (m>=2 && n>=2)
+    {
+        Console.WriteLine();
+        ArrayRandom(array);
+        PrintArray(array);
+        Descending(array);
+        PrintArray(array);
+    }
+    else
+    {
+        Console.WriteLine($"Маленькое количество сторок и столбцов для работы программы");
+    }
 }
 
 InputOutput();
