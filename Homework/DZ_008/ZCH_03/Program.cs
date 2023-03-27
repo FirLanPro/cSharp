@@ -6,28 +6,16 @@ int Input (string text)
     return Convert.ToInt32(Console.ReadLine());
 }
 
-int [,] ArrayRandomOne(int[,] arrOne)
+int [,] ArrayRandom(int[,] array)
 {
-    for (int i = 0; i < arrOne.GetLength(0); i++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
-        for (int j = 0; j < arrOne.GetLength(1); j++)
+        for (int j = 0; j < array.GetLength(1); j++)
         {
-            arrOne[i, j] = new Random().Next(1, 5);
+            array[i, j] = new Random().Next(1, 5);
         }
     }
-    return arrOne;
-}
-
-int [,] ArrayRandomTwo( int [,]arrTwo)
-{
-    for (int i = 0; i < arrTwo.GetLength(0); i++)
-    {
-        for (int j = 0; j < arrTwo.GetLength(1); j++)
-        {
-            arrTwo[i, j] = new Random().Next(1, 5);
-        }
-    }
-    return arrTwo;
+    return array;
 }
 
 int [,] ProductOfTwo( int [,]arrTwo, int [,]arrOne, int [,]oneTwo)
@@ -47,39 +35,13 @@ int [,] ProductOfTwo( int [,]arrTwo, int [,]arrOne, int [,]oneTwo)
     return oneTwo;
 }
 
-void PrintOneArray(int [,] arrOne)
+void PrintArray(int [,] array)
 {
-    for (int i = 0; i < arrOne.GetLength(0); i++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
-        for (int j = 0; j < arrOne.GetLength(1); j++)
+        for (int j = 0; j < array.GetLength(1); j++)
         {
-            Console.Write($"{arrOne[i,j]} ;  ");
-        }
-        Console.WriteLine();
-    }
-    Console.WriteLine();
-}
-
-void PrintTwoArray( int [,]arrTwo)
-{
-    for (int i = 0; i < arrTwo.GetLength(0); i++)
-    {
-        for (int j = 0; j < arrTwo.GetLength(1); j++)
-        {
-            Console.Write($"{arrTwo[i,j]} ;  ");
-        }
-        Console.WriteLine();
-    }
-    Console.WriteLine();
-}
-
-void PrintProductOfTwo( int [,]oneTwo)
-{
-    for (int i = 0; i < oneTwo.GetLength(0); i++)
-    {
-        for (int j = 0; j < oneTwo.GetLength(1); j++)
-        {
-            Console.Write($"{oneTwo[i,j]}    ;  ");
+            Console.Write($"{array[i,j]} ;  ");
         }
         Console.WriteLine();
     }
@@ -101,12 +63,12 @@ void InputOutput ()
         Console.WriteLine($"Матрицы не перемножить");
     }
     Console.WriteLine($"Матрица В:");
-    ArrayRandomTwo(arrTwo);
-    PrintTwoArray(arrTwo);
+    ArrayRandom(arrTwo);
+    PrintArray(arrTwo);
     Console.WriteLine($"Матрица A:");
-    ArrayRandomOne(arrOne);
-    PrintOneArray(arrOne);
+    ArrayRandom(arrOne);
+    PrintArray(arrOne);
     ProductOfTwo(arrOne,arrTwo,oneTwo);
-    PrintProductOfTwo(oneTwo);
+    PrintArray(oneTwo);
 }
 InputOutput();
