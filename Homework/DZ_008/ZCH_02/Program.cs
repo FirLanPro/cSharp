@@ -1,5 +1,7 @@
 ﻿// Задайте прямоугольный двумерный массив. 
 // Напишите программу, которая будет находить строку с наименьшей суммой элементов.
+// Если сумма в строках совпадает, 
+// номер стороки с наименьшей суммой присваивается строке с меньшим номером.
 int Input (string text)
 {
     Console.Write(text);
@@ -30,9 +32,9 @@ void PrintArray(int [,] array)
     Console.WriteLine();
 }
 
-void Summa (int [,] arr)
+void SummaElementInStr (int [,] arr)
 {
-    int str=0;
+    int str=1;
     int k=0;
     for (int i=0; i< arr.GetLength(0); i++)
     {
@@ -57,20 +59,18 @@ void Summa (int [,] arr)
     Console.WriteLine ($"Наименьшая сумма элементов в строке : {str}"); 
 }
 
-bool Output (int [,]array, int m, int n)
+void Output (int [,]array, int m, int n)
 {
-   if (m!=n) 
+   if (m!=n && m>=2 && n>=2) 
    {
         Console.WriteLine();
         ArrayRandom(array);
         PrintArray(array);
-        Summa(array);
-        return true;
+        SummaElementInStr(array);
    }
    else 
    {
-    Console.WriteLine($"не прямоугольный двумерный массив");
-    return false;
+    Console.WriteLine($"не прямоугольный двумерный массив для нахождения в строке суммы");
    }
 }
 int m=Input("количество строк: ");
