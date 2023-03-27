@@ -86,7 +86,7 @@ void PrintProductOfTwo( int [,]oneTwo)
     Console.WriteLine();
 }
 
-void Output ()
+void InputOutput ()
 {
     int s=Input("количество строк матрицы В: ");
     int l=Input("количество столбцов матрицы В: ");
@@ -109,4 +109,4 @@ void Output ()
     ProductOfTwo(arrOne,arrTwo,oneTwo);
     PrintProductOfTwo(oneTwo);
 }
-Output();
+InputOutput();
