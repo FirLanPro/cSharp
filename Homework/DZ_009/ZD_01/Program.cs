@@ -8,7 +8,7 @@ int Input (string text)
     Console.Write(text);
     return Convert.ToInt32(Console.ReadLine());
 }
-string NumberRec(int a, int b) 
+string IntervalNumbers(int a, int b) 
 {
     if (a <=b) return $"{a} " + NumberRec(a+1, b);
     else return String.Empty;
@@ -16,6 +16,6 @@ string NumberRec(int a, int b)
 void InputOutput ()
 {
     int N=Input("Введите число: ");
-    Console.WriteLine(NumberRec(1, N));
+    Console.WriteLine(IntervalNumbers(1, N));
 }
 InputOutput ();
