@@ -10,12 +10,12 @@ int Input (string text)
 }
 string IntervalNumbers(int a, int b) 
 {
-    if (a <=b) return $"{a} " + NumberRec(a+1, b);
+    if (a >=b) return $"{a} " + IntervalNumbers(a-1, b);
     else return String.Empty;
 }
 void InputOutput ()
 {
     int N=Input("Введите число: ");
-    Console.WriteLine(IntervalNumbers(1, N));
+    Console.WriteLine(IntervalNumbers(N, 1));
 }
 InputOutput ();
