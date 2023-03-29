@@ -16,6 +16,10 @@ string IntervalNumbers(int a, int b)
 void InputOutput ()
 {
     int N=Input("Введите число: ");
+    if (N>0)
+    {
     Console.WriteLine(IntervalNumbers(N, 1));
+    }
+    else Console.WriteLine("Не натуральное число. Любое натуральное число больше нуля");
 }
 InputOutput ();
