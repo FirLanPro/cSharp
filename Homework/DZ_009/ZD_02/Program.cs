@@ -1,6 +1,6 @@
 ﻿// Задайте значения M и N. 
 // Напишите программу, 
-// которая найдёт сумму натуральных элементов в промежутке от M до N.
+// которая найдёт сумму натуральных элементов в промежутке от M до N включительно.
 
 int Input (string text)
 {
@@ -10,7 +10,7 @@ int Input (string text)
 int AmountInInterval(int m, int n)
 {
     int result = 0;
-    for(int i = m; i <n; i++) result +=i; //m==n ?
+    for(int i = m; i <=n; i++) result +=i;
     return result;
 }
 int M = Input("число от: ");
