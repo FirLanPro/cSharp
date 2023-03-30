@@ -10,7 +10,7 @@ int Input (string text)
 int AmountInInterval(int m, int n)
 {
     if ( m>0 && m<=n)  return m+ AmountInInterval(m+1,n) ;
-    else if ( m<=0) return AmountInInterval(m+1,n); // если m не натуральный элемент проверяем следующее элемент
+    else if ( m<=0) return AmountInInterval(m+1,n); // если m ненатуральный элемент проверяем следующее элемент
     else return 0;
 }
 void InputOutput ()
