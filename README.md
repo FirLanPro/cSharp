@@ -30,6 +30,7 @@
 1. Z_01 | двумерные массивы | [КОД](Lecture/L_04/Z_01/Program.cs)
 2. Z_02 | Факториал 5! |[КОД](Lecture/L_04/Z_02/Program.cs)
 3. Z_03 | Факториал. Вывод значений от 1 до 18 | [КОД](Lecture/L_04/Z_03/Program.cs)
+4. Z_04 | Фибоначи | [КОД](Lecture/L_04/Z_04/Program.cs)
 
 - ## **L_06:**
 1. E_01 |---------|[КОД](Lecture/L_06/E_01/Program.cs)
