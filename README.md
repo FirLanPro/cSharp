@@ -23,7 +23,7 @@
 5. Exam_05 | Виды методов: 4. не возвращ и не приним | [КОД](Lecture/L_03/Exam_05/Program.cs)
 6. Exam_06 | Цикл for | [КОД](Lecture/L_03/Exam_06/Program.cs)
 7. Exam_07 | Цикл в цикле. Вывод таблицы умножения | [КОД](Lecture/L_03/Exam_07/Program.cs)
-8. Exam_08 | Замена символов в текста на другие символы| [КОД](Lecture/L_03/Exam_08/Program.cs)
+8. Exam_08 | Замена символов в тексте на другие символы| [КОД](Lecture/L_03/Exam_08/Program.cs)
 9. Exam_09 | Массивы. алгоритм сортировки. по возрастанию| [КОД](Lecture/L_03/Exam_09/Program.cs)
 
 - ## **L_04:**
