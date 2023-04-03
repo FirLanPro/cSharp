@@ -113,6 +113,6 @@
 3. ZD_03 | Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n | [КОД](Homework/DZ_009/ZD_03/Program.cs)
 
 - ## **IZ_spiska_zadach:**
-1. nomer_001 | [КОД](Homework/IZ_spiska_zadach/nomer_001/Program.cs)
+1. nomer_001 | Дни недели | [КОД](Homework/IZ_spiska_zadach/nomer_001/Program.cs)
 2. nomer_002 | Замена символов в тексте | [КОД](Homework/IZ_spiska_zadach/nomer_002/Program.cs)
 3. nomer_003 |
