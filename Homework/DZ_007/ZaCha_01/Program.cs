@@ -36,8 +36,8 @@ void PrintArray(double[,] array)
 
 void InputOutput()
 {
-    int m=Input("количество строк: ");
-    int n=Input("количество столбцов: ");
+    int m = Input("количество строк: ");
+    int n = Input("количество столбцов: ");
     double [,] array = new double [m,n];
     Console.WriteLine();
     ArrayRandom(array);
