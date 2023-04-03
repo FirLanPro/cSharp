@@ -34,22 +34,22 @@ void PrintArray(int [,] array)
 
 void SummaElementInStr (int [,] arr)
 {
-    int str=1;
-    int k=0;
+    int str = 1;
+    int k = 0;
     for (int i=0; i< arr.GetLength(0); i++)
     {
-        int sum=0;
+        int sum = 0;
         for (int j=0; j < arr.GetLength(1); j++)
         {
            sum= sum+arr[i,j];
         }
-        if (i==0)
+        if (i == 0)
         {
-            k=sum;
+            k = sum;
         }
         else if (sum<k)
         {
-            k=sum;
+            k = sum;
             str = i+1;
         }
         Console.WriteLine ($"Сумма в строке {i+1} = {sum}"); 
@@ -73,7 +73,7 @@ void Output (int [,]array, int m, int n)
     Console.WriteLine($"не прямоугольный двумерный массив для нахождения в строке суммы");
    }
 }
-int m=Input("количество строк: ");
-int n=Input("количество столбцов: ");
+int m = Input("количество строк: ");
+int n = Input("количество столбцов: ");
 int [,] array = new int [m,n];
 Output(array,m,n);
