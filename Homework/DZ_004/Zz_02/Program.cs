@@ -1,22 +1,23 @@
-﻿// программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+﻿// программу, которая принимает на вход число 
+// и выдаёт сумму цифр в числе.
 
-int input (string text)
+int Input (string text)
 {
     Console.Write(text);
     return Convert.ToInt32(Console.ReadLine());
 }
 
-int round (int N)
+int Round (int N)
 {
-    int X=0;
+    int X = 0;
     while ( N > 0 )
     {
-        X=X+N%10;
-        N=N/10;
+        X = X + N%10;
+        N = N/10;
     }
     return X;
 }
 
-int N = input ("Ведите число: ");
-int res = round (N);
+int N = Input ("Ведите число: ");
+int res = Round (N);
 Console.WriteLine($"сумма цифр в числе {N} = {res}");
