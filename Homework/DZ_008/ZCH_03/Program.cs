@@ -27,7 +27,7 @@ int [,] ProductOfTwo( int [,]arrTwo, int [,]arrOne, int [,]oneTwo)
         {
             for (int k = 0;k < arrTwo.GetLength(0);k++ )
             { 
-            oneTwo[i, j]= arrOne[i,k]*arrTwo[k,j]+ oneTwo[i,j]; 
+            oneTwo[i, j] = arrOne[i,k]*arrTwo[k,j]+ oneTwo[i,j]; 
             
             }
         }
@@ -50,11 +50,11 @@ void PrintArray(int [,] array)
 
 void InputOutput ()
 {
-    int s=Input("количество строк матрицы В: ");
-    int l=Input("количество столбцов матрицы В: ");
+    int s = Input("количество строк матрицы В: ");
+    int l = Input("количество столбцов матрицы В: ");
     int [,] arrTwo = new int [s,l];
-    int m=Input("количество строк матрицы А : ");
-    int n=Input("количество столбцов первой матрицы А: ");
+    int m = Input("количество строк матрицы А : ");
+    int n = Input("количество столбцов первой матрицы А: ");
     int [,] arrOne = new int [m,n];
 
     int [,] oneTwo = new int [arrOne.GetLength(0),arrTwo.GetLength(1)];
