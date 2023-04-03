@@ -55,8 +55,8 @@ void PrintArray(int [,] array)
 
 void InputOutput()
 {
-    int m=Input("количество строк: ");
-    int n=Input("количество столбцов: ");
+    int m = Input("количество строк: ");
+    int n = Input("количество столбцов: ");
     int [,] array = new int [m,n];
     if (m>=2 && n>=2)
     {
