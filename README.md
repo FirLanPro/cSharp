@@ -114,5 +114,5 @@
 
 - ## **IZ_spiska_zadach:**
 1. nomer_001 | [КОД](Homework/IZ_spiska_zadach/nomer_001/Program.cs)
-2. nomer_002 | 
+2. nomer_002 | Замена символов в тексте | [КОД](Homework/IZ_spiska_zadach/nomer_002/Program.cs)
 3. nomer_003 |
