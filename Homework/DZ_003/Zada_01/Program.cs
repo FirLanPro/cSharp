@@ -14,14 +14,13 @@ int Polindrom (int N)
     {
         int m=N%10;
         int x=N/10000;
-   
         if (m==x && N>9999 ) 
         { 
             N=N%10000/10;
             m=N%10;
             x=N/100;
         }
-             
+            
         if (m==x && N>99)
         {
             N=N%100/10;
@@ -32,7 +31,7 @@ int Polindrom (int N)
             Console.WriteLine("не палиндром") ; 
         } 
     }
-return N;
+    return N;
 }
 Console.Write ("введите пятизначное число : ");
 int N = Convert.ToInt32(Console.ReadLine());
