@@ -68,8 +68,8 @@ void NoElement(int m, int n)
 void InputOutput()
 {
     int [,] array = new int [ 9, 9 ];
-    int m =Input("строка: ");
-    int n =Input("столбец: ");
+    int m = Input("строка: ");
+    int n = Input("столбец: ");
     ArrayRandom(array);
     PrintArray(array);
     bool pos =Position (array, m, n);
