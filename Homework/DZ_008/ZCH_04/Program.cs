@@ -66,9 +66,9 @@ void PrintArray(int [,,] array)
 
 void Output ()
 {
-    int x=Input("количество строк x: ");
-    int y=Input("количество столбцов y: ");
-    int z=Input("количество z: ");
+    int x = Input("количество строк x: ");
+    int y = Input("количество столбцов y: ");
+    int z = Input("количество z: ");
     int [,,] array = new int [x,y,z];
     ArrayRandom(array);
     PrintArray(array);
