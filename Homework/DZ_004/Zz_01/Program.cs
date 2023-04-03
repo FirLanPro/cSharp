@@ -5,13 +5,13 @@
 // основание -A с отрицательной четной степенью = 1/A  темже значением степени.
 // основание -A с отрицательной нечетной степенью = 1/-A  темже значением степени.
 
-int input (string text)
+int Input (string text)
 {
     Console.Write(text);
     return Convert.ToInt32(Console.ReadLine());
 }
 
-int round (int A, int B)
+int Round (int A, int B)
 {
     int C=1;
     if (A!=0)
@@ -26,7 +26,7 @@ int round (int A, int B)
     return C;
 }
 
-string negative (int B)
+string Negative (int B)
 {
     if (B<0)
     {
@@ -35,20 +35,20 @@ string negative (int B)
     return "";
 }
 
-bool zero(int A,int B)
+bool Zero(int A,int B)
 {
     if (A==0)
     {
         Console.WriteLine($"основание A не может быть = 0");
         return true;
     }
-        Console.Write ($"Число {A} в степени {B} = ");
-        return false;
+    Console.Write ($"Число {A} в степени {B} = ");
+    return false;
 }
 
-int A = input("Введите число A: ");
-int B = input("Введите число B: ");
-zero(A,B);
-string res = negative (B);
+int A = Input("Введите число A: ");
+int B = Input("Введите число B: ");
+Zero(A,B);
+string res = Negative (B);
 Console.Write ($"{res}");
-round (A,B);
+Round (A,B);
