@@ -35,15 +35,15 @@ void PrintArray(int [,] array)
 double Summa (int [,]array, int m)
 { 
     double sum = 0;
-    double average=0;
+    double average = 0;
     for (int j = 0; j < array.GetLength(1); j++)
     {
         for (int i = 0; i < array.GetLength(0); i++)
         {
-            sum =sum+array[i,j];
+            sum = sum + array[i,j];
         }
         average = sum/m;
-        sum =0;
+        sum = 0;
         Console.WriteLine($"среднее арифметическое столбца {j+1} = {average} ; ");
     }
     return average;
@@ -51,8 +51,8 @@ double Summa (int [,]array, int m)
 
 void InputOutput()
 {
-    int m=Input("количество строк: ");
-    int n=Input("количество столбцов: ");
+    int m = Input("количество строк: ");
+    int n = Input("количество столбцов: ");
     int [,] array = new int [m,n];
     Console.WriteLine();
     ArrayRandom(array);
