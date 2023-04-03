@@ -14,8 +14,8 @@ double Equation (double b1,double k1,double b2 ,double k2)
     {
         double x;
         double y;
-        x =(b2-b1)/(k1-k2);
-        y=k1*x+b1;
+        x = (b2-b1)/(k1-k2);
+        y = k1*x + b1;
         Console.WriteLine($"координаты точки пересечения: ({x} ; {y})");
     }
     return 0;
@@ -24,7 +24,7 @@ double Equation (double b1,double k1,double b2 ,double k2)
 void NotCrossing (double k1,double k2)
 {
     
-    if (k1==k2)
+    if (k1 == k2)
     {
         Console.WriteLine ("прямые не пересекаются");
     }
