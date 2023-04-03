@@ -10,7 +10,7 @@ if (a%2==0)
 }
 else 
 {
-   Console.Write("нечетное число ");
+    Console.Write("нечетное число ");
     Console.WriteLine(a); 
 }
 
