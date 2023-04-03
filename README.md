@@ -115,4 +115,4 @@
 - ## **zadachi:**
 1. nomer_001 | Дни недели | [КОД](Homework/IZ_spiska_zadach/nomer_001/Program.cs)
 2. nomer_002 | Замена символов в тексте | [КОД](Homework/IZ_spiska_zadach/nomer_002/Program.cs)
-3. nomer_003 | Равнобедренный треугольник в двумернов массиве. Построение относительно основания | [КОД](Homework/IZ_spiska_zadach/nomer_003/Program.cs)
+3. nomer_003 | Равнобедренный треугольник в двумерном массиве. Построение относительно основания | [КОД](Homework/IZ_spiska_zadach/nomer_003/Program.cs)
