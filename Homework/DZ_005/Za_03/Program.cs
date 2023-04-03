@@ -7,11 +7,11 @@ int Input (string text)
 
 string ArrayRandom (ref double [] array)
 {
-    int size =array.Length;
+    int size = array.Length;
     string resultArr = String.Empty;
     for (int i=0; i<size; i++)
     {
-        array [i]= new Random().NextDouble() + new Random().Next(-100,999);
+        array [i] = new Random().NextDouble() + new Random().Next(-100,999);
         resultArr = resultArr + array[i] + " ";
     }
     return resultArr;
@@ -19,18 +19,18 @@ string ArrayRandom (ref double [] array)
 
 double MaxMin (double [] arrayString)
 {
-    double max=0;
+    double max = 0;
     double min = arrayString[0];
-    int size=arrayString.Length;
+    int size = arrayString.Length;
     for (int i=0; i<size; i++)
     {
-        if (arrayString[i]>max)
+        if (arrayString[i] > max)
         {
-            max=arrayString[i];
+            max = arrayString[i];
         }
-        if (arrayString[i]<min)
+        if (arrayString[i] < min)
         {
-           min=arrayString[i];
+           min = arrayString[i];
         }
     }
     return max-min;
