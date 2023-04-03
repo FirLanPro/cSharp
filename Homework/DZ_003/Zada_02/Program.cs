@@ -10,7 +10,7 @@ double formula (int x1, int x2, int y1,int y2, int z1,int z2)
     int b=y2-y1;
     int c=z2-z1;
     double d = Math.Sqrt(a+b+c);
-return d;
+    return d;
 }
 
 formula(x1,x2,y1,y2,z1,z2);
