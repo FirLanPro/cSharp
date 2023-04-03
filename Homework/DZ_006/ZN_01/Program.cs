@@ -13,27 +13,27 @@ void ArrayInput( int [] array)
     {
         Console.Write($"введите {i+1}-ое число : ");
         int number = Convert.ToInt32(Console.ReadLine());
-        array[i]=number;
+        array[i] = number;
     }
     Console.WriteLine();
 }
 
 int AboveZero (ref int [] array)
  {
-    int moreZero=0;
+    int moreZero = 0;
     int size = array.Length;
     for (int i=0; i<size; i++)
     {
-        if (array[i]>0)
+        if (array[i] > 0)
         {
-            moreZero=moreZero+1;
+            moreZero = moreZero+1;
         }
     }
     return moreZero;
 }
 
 int length = Input("Количество чисел: ");
-int [] array =new int[length];
+int [] array = new int[length];
 Console.WriteLine();
 ArrayInput(array);
 Console.WriteLine($"количество чисел больше нуля : {AboveZero(ref array)}");    
