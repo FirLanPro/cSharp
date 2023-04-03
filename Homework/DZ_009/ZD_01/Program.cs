@@ -10,13 +10,13 @@ int Input (string text)
 }
 string IntervalNumbers(int a, int b) 
 {
-    if (a >=b) return $"{a} " + IntervalNumbers(a-1, b);
+    if (a >= b) return $"{a} " + IntervalNumbers(a-1, b);
     else return String.Empty;
 }
 void InputOutput ()
 {
-    int N=Input("Введите число: ");
-    if (N>0)
+    int N = Input("Введите число: ");
+    if (N > 0)
     {
     Console.WriteLine(IntervalNumbers(N, 1));
     }
